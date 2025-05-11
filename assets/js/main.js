@@ -281,14 +281,14 @@ function emailing() {
 const formvalidation = () => {
   document.getElementById("sub-btn").addEventListener("click", (e) => {
     e.preventDefault();
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const message = document.getElementById('message').value.trim();
-    const subject = document.getElementById('subject').value.trim();
-    const name_err = document.getElementById("name-err-msg");
-    const email_err = document.getElementById("email-err-msg");
-    const subject_err = document.getElementById("subject-err-msg");
-    const message_err = document.getElementById("message-err-msg");
+    let name = document.getElementById('name').value.trim();
+    let email = document.getElementById('email').value.trim();
+    let message = document.getElementById('message').value.trim();
+    let subject = document.getElementById('subject').value.trim();
+    let name_err = document.getElementById("name-err-msg");
+    let email_err = document.getElementById("email-err-msg");
+    let subject_err = document.getElementById("subject-err-msg");
+    let message_err = document.getElementById("message-err-msg");
     message_err.innerText = "";
     name_err.innerText = "";
     email_err.innerText = "";
