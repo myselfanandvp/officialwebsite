@@ -329,3 +329,5 @@ const formvalidation = () => {
   })
 }
 
+window.onload=formvalidation;
+
