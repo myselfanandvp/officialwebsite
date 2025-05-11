@@ -40,3 +40,9 @@ This site serves as my digital portfolio, showcasing who I am, my work, and how 
 ![Website Preview](https://github.com/user-attachments/assets/e8b6e3cb-e73c-4c57-bad9-94e552fc3118) 
 
 
+🚀 **Performance Result**  
+
+![Perfomance Preview]() 
+
+
+
