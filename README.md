@@ -28,7 +28,7 @@ This site serves as my digital portfolio, showcasing who I am, my work, and how 
 ## 🛠️ Tech Used
 
 - HTML5
-- CSS3 (or Tailwind / Bootstrap if applicable)
+- CSS3 and Bootstrap 
 - JavaScript
 - Git & GitHub
 - GitHub Pages
