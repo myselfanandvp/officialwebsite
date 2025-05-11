@@ -278,9 +278,9 @@ function emailing() {
 }
 
 
-const formvalidation = () => {
-  document.getElementById("sub-btn").addEventListener("click", (e) => {
-    e.preventDefault();
+function formvalidation() {
+ 
+
     let name = document.getElementById('name').value.trim();
     let email = document.getElementById('email').value.trim();
     let message = document.getElementById('message').value.trim();
@@ -326,7 +326,7 @@ const formvalidation = () => {
       emailing()
     }
 
-  })
+  
 }
 
 
