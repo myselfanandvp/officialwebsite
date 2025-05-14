@@ -297,16 +297,16 @@ function formvalidation() {
 
     if (name === "") {
       hasError = true
-      name_err.innerText = "fill the name field";
+      name_err.innerText = "name field is required !";
     }
 
     if (email === "") {
       hasError = true
-      email_err.innerText = "fill the email field";
+      email_err.innerText = "email field is required !";
     } else {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
-        email_err.innerText = "Email is not valid";
+        email_err.innerText = "Email is not valid !";
         hasError = true;
       }
     }
@@ -314,12 +314,12 @@ function formvalidation() {
 
     if (subject === "") {
       hasError = true
-      subject_err.innerText = "fill the subject field";
+      subject_err.innerText = "subject field is required !";
     }
 
     if (message === "") {
       hasError = true
-      message_err.innerText = "fill the message field";
+      message_err.innerText = "message field is required !";
     }
 
     if (!hasError) {

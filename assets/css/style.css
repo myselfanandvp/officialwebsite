@@ -1208,6 +1208,7 @@ section .container {
 .err-msg{
   color:red;
   text-align: left;
+  text-transform: uppercase;
 }
 
 
