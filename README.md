@@ -42,7 +42,7 @@ This site serves as my digital portfolio, showcasing who I am, my work, and how 
 
 🚀 **Performance Result**  
 
-![Perfomance Preview](https://github.com/user-attachments/assets/eefba080-4b8f-40a8-a58c-34a3f22a1275) 
+![Perfomance Preview](https://github.com/user-attachments/assets/fc56f162-ba49-47a8-96ed-bca1ce53a688) 
 
 
 
